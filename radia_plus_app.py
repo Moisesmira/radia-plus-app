@@ -53,9 +53,9 @@ st.success(f"💬 {response}")
 if st.button("Ampliar información sobre este tema con IA"):
     with st.spinner("Consultando..."):
         detailed = get_detailed_response(question)
-        st.info(f"{detailed}\n\n🧠 Esta respuesta ha sido generada por un modelo de inteligencia artificial y no representa necesariamente la opinión del Servicio de Oncología Radioterápica.")
+        st.info(f"{detailed}\n\nEsta respuesta ha sido generada por un modelo de inteligencia artificial y no representa necesariamente la opinión del Servicio de Oncología Radioterápica.")
 
-🧠 *Esta respuesta ha sido generada por un modelo de inteligencia artificial y no representa necesariamente la opinión del Servicio de Oncología Radioterápica.*")
+*Esta respuesta ha sido generada por un modelo de inteligencia artificial y no representa necesariamente la opinión del Servicio de Oncología Radioterápica.*")
 
 st.markdown("---")
 st.caption("RADIA + © 2025 · Hospital Universitari Arnau de Vilanova – Lleida")
